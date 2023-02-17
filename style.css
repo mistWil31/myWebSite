@@ -1,0 +1,17 @@
+#banniere {
+    display: flex;
+    background-color: grey;
+    width : 100%;
+    height: 50px;
+    margin: 10 auto;
+    padding: 5px;
+    
+}
+
+.mainTitle {
+    color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
