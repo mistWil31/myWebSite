@@ -15,3 +15,16 @@
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.input {
+    background-color: black;
+    display: inline-block;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.p2 {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
