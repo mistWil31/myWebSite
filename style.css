@@ -1,3 +1,16 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
 #banniere {
     display: flex;
     background-color: grey;
@@ -16,17 +29,22 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.descriptionPerso {
+    margin: 30px auto;
+}
+
 .input {
-    background-color: black;
+    background-color: rgb(236, 231, 231);
     display: flex;
     max-width: 300px;
     height: 80px;
     flex-direction: column;
     align-items: center;
-    margin : 10px auto;
+    margin : 20px auto;
     padding: 15px auto;
     justify-content: center;
-    color: aliceblue;
+    color: #333;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -38,15 +56,26 @@
 
 
 .p2 {
+    margin-top: 30px;
     font-size: 20px;
     letter-spacing: 5px;
 }
 
 .title2 {
+    margin-top: 30px;
     font-size: 30px;
 }
 
 .title2 + p {
     letter-spacing: 5px;
+}
+
+.gist {
+    margin-top: 30px;
+
+}
+
+h3 {
+    color: aliceblue;
 }
 
